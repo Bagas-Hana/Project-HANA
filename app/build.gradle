@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.hana.offline.intelligence'
-    compileSdk 34
+    compileSdk 25
 
     defaultConfig {
         applicationId "com.hana.offline.intelligence"
         minSdk 24
-        targetSdk 34
+        targetSdk 25
         versionCode 1
         versionName "1.0"
     }
