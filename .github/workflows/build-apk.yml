@@ -21,4 +21,6 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
 
       - name: Build APK
-        run: gradle assembleDebug
+        run: |
+          cd app
+          gradle assembleDebug
