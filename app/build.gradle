@@ -1,20 +1,16 @@
-apply plugin: 'com.android.application'
+plugins {
+    id 'com.android.application'
+}
 
 android {
-    compileSdk 33
-    namespace "com.hana.offline.intelligence"
+    namespace 'com.hana.offline.intelligence'
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.hana.offline.intelligence"
         minSdk 24
-        targetSdk 33
+        targetSdk 34
         versionCode 1
-        versionName "1.0-HANA" // Versi perdana HANA
-    }
-
-    buildTypes {
-        release {
-            minifyEnabled false
-        }
+        versionName "1.0"
     }
 }
